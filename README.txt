@@ -1,7 +1,7 @@
-# Collision Avoidance of Mobile Robots in ROS2
+#Collision Avoidance of Mobile Robots in ROS2
 This is the result of the trained agent. Watch this on YouTube. :--- https://www.youtube.com/watch?v=IRASuKMiOvw&t=5s
 
-## To run this:
+##To run this:
 
 1- Install ros2 (ros2-foxy was used during this project)
 2- Remove the log, install and build folders and rebuild everything by running in the terminal (outside the src folder, in this folder: cd ~/DRL_robot_navigation_ros2/ ):
@@ -13,7 +13,7 @@ then add this line at the end (note that your path might differ):
 4- Run the simulation of the trained robot with the creation of the map (might need to install dependencies like the `slamtoolbox` before building (in step 2)):
 ros2 launch td3 testmap_simulation.launch.py
 
-## Notes:
+##Notes:
 
 - This project was inspired from a paper published in ros1, then partly converted in ros2. We took the ros2 source files, and modified them with the addition of the creation of the map while the robot is exploring the room using the TD3 algorithm. 
 - One of the main problems encountered during the training of the robot was that the boxes were not moving after each iteration so our robot was not trained correctly, so we used their trained robot. This problem may be due to the updates in the gazebo environment from ros1 to ros2 since this project was converted from ros1. Also, the training sometimes led to an average Q value decreasing, this means the robot was not learning correctly, to solve this we needed to re-train it which takes around 8h-10h so due to time limitations we decided to use their pre-trained robot (also because even though we once obtained a good training with Q increasing at the end, it was still not converging since it needed more time)
