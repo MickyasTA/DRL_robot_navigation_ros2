@@ -1,0 +1,4 @@
+source;share/td3/local_setup.bash
+source;share/td3/local_setup.dsv
+source;share/td3/local_setup.sh
+source;share/td3/local_setup.zsh

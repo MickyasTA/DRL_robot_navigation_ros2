@@ -1,0 +1,43 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/perla/DRL_robot_navigation_ros2/build/omni_cartographer
+-- Install configuration: ""
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/config
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/config/omni_lds_2d.lua
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/launch
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/launch/occupancy_grid.launch.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/launch/cartographer.launch.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/rviz
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/rviz/tb3_cartographer.rviz
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/ament_index/resource_index/package_run_dependencies/omni_cartographer
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/ament_index/resource_index/parent_prefix_path/omni_cartographer
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/ament_prefix_path.sh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/ament_prefix_path.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/path.sh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/path.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.bash
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.sh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.zsh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/ament_index/resource_index/packages/omni_cartographer
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/cmake/omni_cartographerConfig.cmake
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/cmake/omni_cartographerConfig-version.cmake
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.xml

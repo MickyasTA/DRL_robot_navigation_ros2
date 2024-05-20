@@ -1,0 +1,37 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator
+-- Install configuration: ""
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/ament_index/resource_index/package_run_dependencies/velodyne_simulator
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/ament_index/resource_index/parent_prefix_path/velodyne_simulator
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/ament_prefix_path.sh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/ament_prefix_path.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/path.sh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/path.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.bash
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.sh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.zsh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/ament_index/resource_index/packages/velodyne_simulator
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/cmake/velodyne_simulatorConfig.cmake
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/cmake/velodyne_simulatorConfig-version.cmake
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.xml

@@ -1,0 +1,195 @@
+[0.275s] Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake /home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_description -DCMAKE_INSTALL_PREFIX=/home/perla/DRL_robot_navigation_ros2/install/velodyne_description
+[0.306s] -- The C compiler identification is GNU 9.4.0
+[0.336s] -- The CXX compiler identification is GNU 9.4.0
+[0.339s] -- Check for working C compiler: /usr/bin/cc
+[0.378s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.379s] -- Detecting C compiler ABI info
+[0.418s] -- Detecting C compiler ABI info - done
+[0.424s] -- Detecting C compile features
+[0.425s] -- Detecting C compile features - done
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++
+[0.470s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.471s] -- Detecting CXX compiler ABI info
+[0.514s] -- Detecting CXX compiler ABI info - done
+[0.522s] -- Detecting CXX compile features
+[0.522s] -- Detecting CXX compile features - done
+[0.523s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.540s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.540s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.644s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.647s] -- Checking for module 'bullet>=2.82'
+[0.656s] --   Found bullet, version 2.88
+[0.720s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.751s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.782s] -- Found assimp: /usr/include (found version "5.0.0") 
+[0.796s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.966s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.979s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.982s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.985s] -- Searching for dependencies of ignition-math6
+[0.986s] -- Looking for OGRE...
+[0.986s] -- OGRE_PREFIX_WATCH changed.
+[0.989s] -- Checking for module 'OGRE'
+[0.997s] --   Found OGRE, version 1.9.0
+[1.017s] -- Found Ogre Ghadamon (1.9.0)
+[1.022s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.028s] -- Looking for OGRE_Paging...
+[1.031s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.031s] -- Looking for OGRE_Terrain...
+[1.035s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.035s] -- Looking for OGRE_Property...
+[1.038s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.038s] -- Looking for OGRE_RTShaderSystem...
+[1.041s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.041s] -- Looking for OGRE_Volume...
+[1.045s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.045s] -- Looking for OGRE_Overlay...
+[1.048s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.114s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.116s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.116s] -- Searching for dependencies of ignition-transport8
+[1.126s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.131s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.134s] -- Checking for module 'libzmq >= 4'
+[1.142s] --   Found libzmq , version 4.3.2
+[1.164s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.167s] -- Checking for module 'uuid'
+[1.175s] --   Found uuid, version 2.34.0
+[1.195s] -- Found UUID: TRUE  
+[1.196s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.196s] -- Searching for dependencies of ignition-msgs5
+[1.207s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.210s] -- Checking for module 'tinyxml2'
+[1.218s] --   Found tinyxml2, version 6.2.0
+[1.240s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.241s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.241s] -- Searching for dependencies of ignition-common3
+[1.241s] -- Looking for dlfcn.h - found
+[1.241s] -- Looking for libdl - found
+[1.242s] -- Found DL: TRUE  
+[1.247s] -- Searching for <ignition-common3> component [graphics]
+[1.248s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[1.249s] -- Searching for dependencies of ignition-common3-graphics
+[1.249s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.250s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.251s] -- Searching for dependencies of ignition-fuel_tools4
+[1.291s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.295s] -- Checking for module 'jsoncpp'
+[1.303s] --   Found jsoncpp, version 1.7.4
+[1.323s] -- Found JSONCPP: TRUE  
+[1.327s] -- Checking for module 'libzip'
+[1.335s] --   Found libzip, version 1.5.1
+[1.355s] -- Found ZIP: TRUE  
+[1.356s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.356s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.356s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.357s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[1.390s] -- Configuring done
+[1.392s] -- Generating done
+[1.393s] -- Build files have been written to: /home/perla/DRL_robot_navigation_ros2/build/velodyne_description
+[1.399s] Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake /home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_description -DCMAKE_INSTALL_PREFIX=/home/perla/DRL_robot_navigation_ros2/install/velodyne_description
+[1.400s] Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_description -- -j20 -l20
+[1.422s] Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_description -- -j20 -l20
+[1.436s] Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_description
+[1.441s] -- Install configuration: ""
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/ament_index/resource_index/package_run_dependencies/velodyne_description
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/ament_index/resource_index/parent_prefix_path/velodyne_description
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.sh
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.dsv
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/path.sh
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/path.dsv
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.bash
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.sh
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.zsh
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.dsv
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.dsv
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/ament_index/resource_index/packages/velodyne_description
+[1.441s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig.cmake
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig-version.cmake
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.xml
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/launch
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/launch/example-launch.py
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.dae
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.stl
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.dae
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.dae
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.dae
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.stl
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.stl
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.dae
+[1.442s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.stl
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.stl
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/rviz
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/rviz/example.rviz
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/VLP-16.urdf.xacro
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/example.urdf.xacro
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/HDL-32E.urdf.xacro
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/VLP-32C.urdf.xacro
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/world
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/world/lio_sam.model
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/world/example.world
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/model.config
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_head
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_base
+[1.443s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae
+[1.444s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors
+[1.444s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf
+[1.444s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae
+[1.444s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png
+[1.444s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf
+[1.444s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png
+[1.444s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae
+[1.453s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps
+[1.453s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps.dae
+[1.455s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png
+[1.455s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30
+[1.455s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae
+[1.465s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png
+[1.466s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera
+[1.466s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera/camera.dae
+[1.466s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension
+[1.466s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_right_link.dae
+[1.466s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_right_link.dae
+[1.467s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_left_link.dae
+[1.468s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_left_link.dae
+[1.469s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/wheel
+[1.469s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/wheel/wheel_link.dae
+[1.470s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/base
+[1.470s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/base/base_link.dae
+[1.475s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/base/base_linkOLD.dae
+[1.479s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL
+[1.479s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_head
+[1.479s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl
+[1.479s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_base
+[1.479s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl
+[1.479s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors
+[1.479s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf
+[1.479s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl
+[1.479s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf
+[1.480s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl
+[1.482s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gps
+[1.482s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gps/gps.stl
+[1.483s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30
+[1.483s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30/gim30.stl
+[1.487s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/camera
+[1.487s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension
+[1.487s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl
+[1.487s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl
+[1.487s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl
+[1.487s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl
+[1.488s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/sus_link.stl
+[1.488s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/wheel
+[1.488s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/wheel/robot_wheel.stl
+[1.488s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/base
+[1.488s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/base/base_link.stl
+[1.488s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/base/base_link_old.stl
+[1.488s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/rs_robot.sdf
+[1.490s] Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_description

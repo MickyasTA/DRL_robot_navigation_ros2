@@ -1,0 +1,2 @@
+source;share/omni_cartographer/environment/ament_prefix_path.sh
+source;share/omni_cartographer/environment/path.sh

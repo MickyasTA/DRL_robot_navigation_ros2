@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/config
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/config/omni_lds_2d.lua
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/launch
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/launch/occupancy_grid.launch.py
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/launch/cartographer.launch.py
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/rviz
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/rviz/tb3_cartographer.rviz
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/ament_index/resource_index/package_run_dependencies/omni_cartographer
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/ament_index/resource_index/parent_prefix_path/omni_cartographer
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/ament_prefix_path.sh
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/path.sh
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/path.dsv
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.bash
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.sh
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.zsh
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.dsv
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/ament_index/resource_index/packages/omni_cartographer
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/cmake/omni_cartographerConfig.cmake
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/cmake/omni_cartographerConfig-version.cmake
+-- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.xml

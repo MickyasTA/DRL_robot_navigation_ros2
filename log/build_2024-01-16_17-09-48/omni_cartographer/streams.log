@@ -1,0 +1,28 @@
+[0.206s] Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/omni_cartographer -- -j20 -l20
+[0.228s] Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/omni_cartographer -- -j20 -l20
+[0.245s] Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/omni_cartographer
+[0.274s] -- Install configuration: ""
+[0.275s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/config
+[0.275s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/config/omni_lds_2d.lua
+[0.276s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/launch
+[0.277s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/launch/occupancy_grid.launch.py
+[0.277s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/launch/cartographer.launch.py
+[0.277s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/rviz
+[0.278s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/rviz/tb3_cartographer.rviz
+[0.279s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/rviz/pioneer3dx.rviz
+[0.279s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/ament_index/resource_index/package_run_dependencies/omni_cartographer
+[0.279s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/ament_index/resource_index/parent_prefix_path/omni_cartographer
+[0.280s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/ament_prefix_path.sh
+[0.281s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/ament_prefix_path.dsv
+[0.282s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/path.sh
+[0.282s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/environment/path.dsv
+[0.283s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.bash
+[0.283s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.sh
+[0.283s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.zsh
+[0.284s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/local_setup.dsv
+[0.284s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.dsv
+[0.284s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/ament_index/resource_index/packages/omni_cartographer
+[0.284s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/cmake/omni_cartographerConfig.cmake
+[0.284s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/cmake/omni_cartographerConfig-version.cmake
+[0.284s] -- Up-to-date: /home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.xml
+[0.397s] Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/omni_cartographer

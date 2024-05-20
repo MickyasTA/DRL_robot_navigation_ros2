@@ -1,0 +1,43 @@
+[0.093s] Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator': CMAKE_PREFIX_PATH=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/perla/DRL_robot_navigation_ros2/install/velodyne_description:/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator:/home/perla/DRL_robot_navigation_ros2/install/td3:/home/perla/ros2_ws/install/velodyne_simulator:/home/perla/ros2_ws/install/velodyne_gazebo_plugins:/home/perla/ros2_ws/install/velodyne_description:/home/perla/ros2_ws/install/td3:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake /home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_simulator -DCMAKE_INSTALL_PREFIX=/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator
+[0.122s] -- The C compiler identification is GNU 9.4.0
+[0.152s] -- The CXX compiler identification is GNU 9.4.0
+[0.155s] -- Check for working C compiler: /usr/bin/cc
+[0.192s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.192s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.234s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++
+[0.278s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.279s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Detecting CXX compile features
+[0.328s] -- Detecting CXX compile features - done
+[0.329s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.345s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.345s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.442s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.473s] -- Configuring done
+[0.473s] -- Generating done
+[0.474s] -- Build files have been written to: /home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator
+[0.477s] Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator' returned '0': CMAKE_PREFIX_PATH=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/perla/DRL_robot_navigation_ros2/install/velodyne_description:/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator:/home/perla/DRL_robot_navigation_ros2/install/td3:/home/perla/ros2_ws/install/velodyne_simulator:/home/perla/ros2_ws/install/velodyne_gazebo_plugins:/home/perla/ros2_ws/install/velodyne_description:/home/perla/ros2_ws/install/td3:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake /home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_simulator -DCMAKE_INSTALL_PREFIX=/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator
+[0.477s] Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator': CMAKE_PREFIX_PATH=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/perla/DRL_robot_navigation_ros2/install/velodyne_description:/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator:/home/perla/DRL_robot_navigation_ros2/install/td3:/home/perla/ros2_ws/install/velodyne_simulator:/home/perla/ros2_ws/install/velodyne_gazebo_plugins:/home/perla/ros2_ws/install/velodyne_description:/home/perla/ros2_ws/install/td3:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator -- -j20 -l20
+[0.498s] Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator' returned '0': CMAKE_PREFIX_PATH=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/perla/DRL_robot_navigation_ros2/install/velodyne_description:/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator:/home/perla/DRL_robot_navigation_ros2/install/td3:/home/perla/ros2_ws/install/velodyne_simulator:/home/perla/ros2_ws/install/velodyne_gazebo_plugins:/home/perla/ros2_ws/install/velodyne_description:/home/perla/ros2_ws/install/td3:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator -- -j20 -l20
+[0.509s] Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator': CMAKE_PREFIX_PATH=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/perla/DRL_robot_navigation_ros2/install/velodyne_description:/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator:/home/perla/DRL_robot_navigation_ros2/install/td3:/home/perla/ros2_ws/install/velodyne_simulator:/home/perla/ros2_ws/install/velodyne_gazebo_plugins:/home/perla/ros2_ws/install/velodyne_description:/home/perla/ros2_ws/install/td3:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator
+[0.514s] -- Install configuration: ""
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/ament_index/resource_index/package_run_dependencies/velodyne_simulator
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/ament_index/resource_index/parent_prefix_path/velodyne_simulator
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/ament_prefix_path.sh
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/ament_prefix_path.dsv
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/path.sh
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/path.dsv
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.bash
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.sh
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.zsh
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.dsv
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.dsv
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/ament_index/resource_index/packages/velodyne_simulator
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/cmake/velodyne_simulatorConfig.cmake
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/cmake/velodyne_simulatorConfig-version.cmake
+[0.514s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.xml
+[0.515s] Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator' returned '0': CMAKE_PREFIX_PATH=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/perla/DRL_robot_navigation_ros2/install/velodyne_description:/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator:/home/perla/DRL_robot_navigation_ros2/install/td3:/home/perla/ros2_ws/install/velodyne_simulator:/home/perla/ros2_ws/install/velodyne_gazebo_plugins:/home/perla/ros2_ws/install/velodyne_description:/home/perla/ros2_ws/install/td3:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator

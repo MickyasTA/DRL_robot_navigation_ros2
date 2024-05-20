@@ -1,0 +1,430 @@
+[1.381s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.382s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f01090aae50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=20, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f01090aae50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f010997c0d0>)
+[1.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.461s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/perla/DRL_robot_navigation_ros2'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extension 'ignore'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extension 'ignore_ament_install'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extensions ['colcon_pkg']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extension 'colcon_pkg'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extensions ['colcon_meta']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extension 'colcon_meta'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extensions ['ros']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extension 'ros'
+[1.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_cartographer' with type 'ros.ament_cmake' and name 'omni_cartographer'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/td3) by extensions ['ignore', 'ignore_ament_install']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/td3) by extension 'ignore'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/td3) by extension 'ignore_ament_install'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/td3) by extensions ['colcon_pkg']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/td3) by extension 'colcon_pkg'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/td3) by extensions ['colcon_meta']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/td3) by extension 'colcon_meta'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/td3) by extensions ['ros']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/td3) by extension 'ros'
+[1.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/td3' with type 'ros.ament_cmake' and name 'td3'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'ignore'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'ignore_ament_install'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['colcon_pkg']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'colcon_pkg'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['colcon_meta']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'colcon_meta'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['ros']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'ros'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['cmake', 'python']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'cmake'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'python'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['python_setup_py']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'python_setup_py'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['ignore', 'ignore_ament_install']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'ignore'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'ignore_ament_install'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['colcon_pkg']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'colcon_pkg'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['colcon_meta']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'colcon_meta'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['ros']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'ros'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['cmake', 'python']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'cmake'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'python'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['python_setup_py']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'python_setup_py'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extensions ['ignore', 'ignore_ament_install']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extension 'ignore'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extension 'ignore_ament_install'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extensions ['colcon_pkg']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extension 'colcon_pkg'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extensions ['colcon_meta']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extension 'colcon_meta'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extensions ['ros']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extension 'ros'
+[1.477s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne_simulator/velodyne_description' with type 'ros.ament_cmake' and name 'velodyne_description'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore_ament_install'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_pkg']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_pkg'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_meta']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_meta'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ros']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ros'
+[1.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne_simulator/velodyne_gazebo_plugins' with type 'ros.ament_cmake' and name 'velodyne_gazebo_plugins'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extension 'ignore'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extension 'ignore_ament_install'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extensions ['colcon_pkg']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extension 'colcon_pkg'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extensions ['colcon_meta']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extension 'colcon_meta'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extensions ['ros']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extension 'ros'
+[1.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne_simulator/velodyne_simulator' with type 'ros.ament_cmake' and name 'velodyne_simulator'
+[1.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.606s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.606s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.629s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.630s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.653s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/perla/DRL_robot_navigation_ros2/install
+[1.675s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/perla/ros2_ws/install
+[1.699s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 336 installed packages in /opt/ros/foxy
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_args' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_target' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.816s] DEBUG:colcon.colcon_core.verb:Building package 'omni_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/perla/DRL_robot_navigation_ros2/build/omni_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer', 'merge_install': False, 'path': '/home/perla/DRL_robot_navigation_ros2/src/omni_cartographer', 'symlink_install': False, 'test_result_base': None}
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'td3' build argument 'cmake_args' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'td3' build argument 'cmake_target' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'td3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'td3' build argument 'cmake_clean_cache' from command line to 'False'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'td3' build argument 'cmake_clean_first' from command line to 'False'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'td3' build argument 'cmake_force_configure' from command line to 'False'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'td3' build argument 'ament_cmake_args' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'td3' build argument 'catkin_cmake_args' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'td3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.839s] DEBUG:colcon.colcon_core.verb:Building package 'td3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/perla/DRL_robot_navigation_ros2/build/td3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/perla/DRL_robot_navigation_ros2/install/td3', 'merge_install': False, 'path': '/home/perla/DRL_robot_navigation_ros2/src/td3', 'symlink_install': False, 'test_result_base': None}
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_args' from command line to 'None'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target' from command line to 'None'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.861s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.861s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/perla/DRL_robot_navigation_ros2/build/velodyne_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description', 'merge_install': False, 'path': '/home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_description', 'symlink_install': False, 'test_result_base': None}
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.884s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins', 'merge_install': False, 'path': '/home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[1.907s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_args' from command line to 'None'
+[1.907s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target' from command line to 'None'
+[1.907s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.907s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.907s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[1.907s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[1.907s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[1.907s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.907s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.907s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator', 'merge_install': False, 'path': '/home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_simulator', 'symlink_install': False, 'test_result_base': None}
+[1.929s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.952s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.953s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_description' with build type 'ament_cmake'
+[1.953s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_description'
+[1.977s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.977s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.977s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.074s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins' with build type 'ament_cmake'
+[2.074s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins'
+[2.122s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.122s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/perla/DRL_robot_navigation_ros2/src/omni_cartographer' with build type 'ament_cmake'
+[2.221s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/perla/DRL_robot_navigation_ros2/src/omni_cartographer'
+[2.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.346s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/perla/DRL_robot_navigation_ros2/src/td3' with build type 'ament_cmake'
+[2.346s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/perla/DRL_robot_navigation_ros2/src/td3'
+[2.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_description -- -j20 -l20
+[2.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins -- -j20 -l20
+[2.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/omni_cartographer -- -j20 -l20
+[2.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/td3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/td3 -- -j20 -l20
+[2.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_description -- -j20 -l20
+[2.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/omni_cartographer -- -j20 -l20
+[2.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/td3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/td3 -- -j20 -l20
+[2.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_description
+[2.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/omni_cartographer
+[2.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/td3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/td3
+[2.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_description)
+[2.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins -- -j20 -l20
+[2.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_description
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description' for CMake module files
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description' for CMake config files
+[2.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_description', 'cmake_prefix_path')
+[2.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.ps1'
+[2.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.dsv'
+[2.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.sh'
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/bin'
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/lib/pkgconfig/velodyne_description.pc'
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/lib/python3.8/site-packages'
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/bin'
+[2.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.ps1'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.dsv'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.sh'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.bash'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.zsh'
+[2.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/colcon-core/packages/velodyne_description)
+[2.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_cartographer)
+[2.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/omni_cartographer
+[2.718s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer' for CMake module files
+[2.718s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer' for CMake config files
+[2.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_cartographer', 'cmake_prefix_path')
+[2.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.ps1'
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.dsv'
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.sh'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/bin'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/lib/pkgconfig/omni_cartographer.pc'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/lib/python3.8/site-packages'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/bin'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.ps1'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.dsv'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.sh'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.bash'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.zsh'
+[2.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/colcon-core/packages/omni_cartographer)
+[2.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(td3)
+[2.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/td3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/td3
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3' for CMake module files
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3' for CMake config files
+[2.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('td3', 'cmake_prefix_path')
+[2.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/hook/cmake_prefix_path.ps1'
+[2.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/hook/cmake_prefix_path.dsv'
+[2.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/hook/cmake_prefix_path.sh'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3/lib'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3/bin'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3/lib/pkgconfig/td3.pc'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3/lib/python3.8/site-packages'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3/bin'
+[2.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.ps1'
+[2.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.dsv'
+[2.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.sh'
+[2.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.bash'
+[2.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.zsh'
+[2.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perla/DRL_robot_navigation_ros2/install/td3/share/colcon-core/packages/td3)
+[2.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins
+[2.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_description)
+[2.938s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description' for CMake module files
+[2.938s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description' for CMake config files
+[2.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_description', 'cmake_prefix_path')
+[2.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.ps1'
+[2.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.dsv'
+[2.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.sh'
+[2.962s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/bin'
+[2.962s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/lib/pkgconfig/velodyne_description.pc'
+[2.962s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/lib/python3.8/site-packages'
+[2.962s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/bin'
+[2.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.ps1'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.dsv'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.sh'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.bash'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.zsh'
+[2.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perla/DRL_robot_navigation_ros2/install/velodyne_description/share/colcon-core/packages/velodyne_description)
+[3.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_cartographer)
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer' for CMake module files
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer' for CMake config files
+[3.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_cartographer', 'cmake_prefix_path')
+[3.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.ps1'
+[3.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.dsv'
+[3.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.sh'
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/bin'
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/lib/pkgconfig/omni_cartographer.pc'
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/lib/python3.8/site-packages'
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/bin'
+[3.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.ps1'
+[3.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.dsv'
+[3.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.sh'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.bash'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/omni_cartographer/package.zsh'
+[3.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer/share/colcon-core/packages/omni_cartographer)
+[3.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_gazebo_plugins)
+[3.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins
+[3.110s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins' for CMake module files
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins' for CMake config files
+[3.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'cmake_prefix_path')
+[3.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[3.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[3.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.sh'
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib'
+[3.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'ld_library_path_lib')
+[3.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[3.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[3.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.sh'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/bin'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib/pkgconfig/velodyne_gazebo_plugins.pc'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib/python3.8/site-packages'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/bin'
+[3.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.ps1'
+[3.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv'
+[3.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.sh'
+[3.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.bash'
+[3.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.zsh'
+[3.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/colcon-core/packages/velodyne_gazebo_plugins)
+[3.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(td3)
+[3.238s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3' for CMake module files
+[3.238s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3' for CMake config files
+[3.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('td3', 'cmake_prefix_path')
+[3.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/hook/cmake_prefix_path.ps1'
+[3.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/hook/cmake_prefix_path.dsv'
+[3.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/hook/cmake_prefix_path.sh'
+[3.262s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3/lib'
+[3.263s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3/bin'
+[3.263s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3/lib/pkgconfig/td3.pc'
+[3.263s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3/lib/python3.8/site-packages'
+[3.263s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/td3/bin'
+[3.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.ps1'
+[3.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.dsv'
+[3.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.sh'
+[3.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.bash'
+[3.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.zsh'
+[3.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perla/DRL_robot_navigation_ros2/install/td3/share/colcon-core/packages/td3)
+[3.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_gazebo_plugins)
+[3.336s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins' for CMake module files
+[3.336s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins' for CMake config files
+[3.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'cmake_prefix_path')
+[3.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[3.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[3.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.sh'
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib'
+[3.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'ld_library_path_lib')
+[3.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[3.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[3.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.sh'
+[3.385s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/bin'
+[3.385s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib/pkgconfig/velodyne_gazebo_plugins.pc'
+[3.385s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib/python3.8/site-packages'
+[3.385s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/bin'
+[3.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.ps1'
+[3.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv'
+[3.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.sh'
+[3.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.bash'
+[3.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.zsh'
+[3.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/colcon-core/packages/velodyne_gazebo_plugins)
+[3.410s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_simulator' with build type 'ament_cmake'
+[3.410s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_simulator'
+[3.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator': CMAKE_PREFIX_PATH=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/perla/DRL_robot_navigation_ros2/install/velodyne_description:/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer:/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator:/home/perla/DRL_robot_navigation_ros2/install/td3:/home/perla/ros2_ws/install/velodyne_simulator:/home/perla/ros2_ws/install/velodyne_gazebo_plugins:/home/perla/ros2_ws/install/velodyne_description:/home/perla/ros2_ws/install/td3:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator -- -j20 -l20
+[3.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator' returned '0': CMAKE_PREFIX_PATH=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/perla/DRL_robot_navigation_ros2/install/velodyne_description:/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer:/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator:/home/perla/DRL_robot_navigation_ros2/install/td3:/home/perla/ros2_ws/install/velodyne_simulator:/home/perla/ros2_ws/install/velodyne_gazebo_plugins:/home/perla/ros2_ws/install/velodyne_description:/home/perla/ros2_ws/install/td3:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator -- -j20 -l20
+[3.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator': CMAKE_PREFIX_PATH=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/perla/DRL_robot_navigation_ros2/install/velodyne_description:/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer:/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator:/home/perla/DRL_robot_navigation_ros2/install/td3:/home/perla/ros2_ws/install/velodyne_simulator:/home/perla/ros2_ws/install/velodyne_gazebo_plugins:/home/perla/ros2_ws/install/velodyne_description:/home/perla/ros2_ws/install/td3:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator
+[3.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_simulator)
+[3.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator' returned '0': CMAKE_PREFIX_PATH=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/perla/DRL_robot_navigation_ros2/install/velodyne_description:/home/perla/DRL_robot_navigation_ros2/install/omni_cartographer:/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator:/home/perla/DRL_robot_navigation_ros2/install/td3:/home/perla/ros2_ws/install/velodyne_simulator:/home/perla/ros2_ws/install/velodyne_gazebo_plugins:/home/perla/ros2_ws/install/velodyne_description:/home/perla/ros2_ws/install/td3:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_simulator
+[3.639s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator' for CMake module files
+[3.639s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator' for CMake config files
+[3.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_simulator', 'cmake_prefix_path')
+[3.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.ps1'
+[3.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.dsv'
+[3.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.sh'
+[3.666s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/bin'
+[3.666s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/lib/pkgconfig/velodyne_simulator.pc'
+[3.667s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/lib/python3.8/site-packages'
+[3.667s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/bin'
+[3.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.ps1'
+[3.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.dsv'
+[3.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.sh'
+[3.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.bash'
+[3.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.zsh'
+[3.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/colcon-core/packages/velodyne_simulator)
+[3.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_simulator)
+[3.789s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator' for CMake module files
+[3.789s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator' for CMake config files
+[3.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_simulator', 'cmake_prefix_path')
+[3.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.ps1'
+[3.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.dsv'
+[3.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.sh'
+[3.813s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/bin'
+[3.813s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/lib/pkgconfig/velodyne_simulator.pc'
+[3.813s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/lib/python3.8/site-packages'
+[3.813s] Level 1:colcon.colcon_core.environment:checking '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/bin'
+[3.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.ps1'
+[3.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.dsv'
+[3.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.sh'
+[3.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.bash'
+[3.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.zsh'
+[3.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perla/DRL_robot_navigation_ros2/install/velodyne_simulator/share/colcon-core/packages/velodyne_simulator)
+[3.839s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.840s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.840s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.840s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.869s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.869s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.869s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.887s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.910s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/perla/DRL_robot_navigation_ros2/install/local_setup.ps1'
+[3.911s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/perla/DRL_robot_navigation_ros2/install/_local_setup_util_ps1.py'
+[3.912s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/perla/DRL_robot_navigation_ros2/install/setup.ps1'
+[3.936s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/perla/DRL_robot_navigation_ros2/install/local_setup.sh'
+[3.936s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/perla/DRL_robot_navigation_ros2/install/_local_setup_util_sh.py'
+[3.936s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/perla/DRL_robot_navigation_ros2/install/setup.sh'
+[3.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/perla/DRL_robot_navigation_ros2/install/local_setup.bash'
+[3.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/perla/DRL_robot_navigation_ros2/install/setup.bash'
+[3.984s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/perla/DRL_robot_navigation_ros2/install/local_setup.zsh'
+[3.985s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/perla/DRL_robot_navigation_ros2/install/setup.zsh'

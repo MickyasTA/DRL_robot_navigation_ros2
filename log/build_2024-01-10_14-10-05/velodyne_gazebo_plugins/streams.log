@@ -1,0 +1,137 @@
+[0.184s] Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake /home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins
+[0.214s] -- The C compiler identification is GNU 9.4.0
+[0.244s] -- The CXX compiler identification is GNU 9.4.0
+[0.247s] -- Check for working C compiler: /usr/bin/cc
+[0.284s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.285s] -- Detecting C compiler ABI info
+[0.324s] -- Detecting C compiler ABI info - done
+[0.330s] -- Detecting C compile features
+[0.330s] -- Detecting C compile features - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.376s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.427s] -- Detecting CXX compile features
+[0.427s] -- Detecting CXX compile features - done
+[0.429s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.446s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.446s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.552s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[0.555s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.558s] -- Checking for module 'bullet>=2.82'
+[0.566s] --   Found bullet, version 2.88
+[0.634s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.664s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.693s] -- Found assimp: /usr/include (found version "5.0.0") 
+[0.707s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.872s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.884s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.886s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.890s] -- Searching for dependencies of ignition-math6
+[0.891s] -- Looking for OGRE...
+[0.891s] -- OGRE_PREFIX_WATCH changed.
+[0.894s] -- Checking for module 'OGRE'
+[0.902s] --   Found OGRE, version 1.9.0
+[0.922s] -- Found Ogre Ghadamon (1.9.0)
+[0.926s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.933s] -- Looking for OGRE_Paging...
+[0.936s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.936s] -- Looking for OGRE_Terrain...
+[0.940s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.940s] -- Looking for OGRE_Property...
+[0.943s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.943s] -- Looking for OGRE_RTShaderSystem...
+[0.947s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.947s] -- Looking for OGRE_Volume...
+[0.950s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.950s] -- Looking for OGRE_Overlay...
+[0.953s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.021s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.022s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.022s] -- Searching for dependencies of ignition-transport8
+[1.032s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.038s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.040s] -- Checking for module 'libzmq >= 4'
+[1.048s] --   Found libzmq , version 4.3.2
+[1.070s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.073s] -- Checking for module 'uuid'
+[1.081s] --   Found uuid, version 2.34.0
+[1.101s] -- Found UUID: TRUE  
+[1.102s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.102s] -- Searching for dependencies of ignition-msgs5
+[1.113s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.115s] -- Checking for module 'tinyxml2'
+[1.124s] --   Found tinyxml2, version 6.2.0
+[1.146s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.147s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.147s] -- Searching for dependencies of ignition-common3
+[1.147s] -- Looking for dlfcn.h - found
+[1.147s] -- Looking for libdl - found
+[1.148s] -- Found DL: TRUE  
+[1.153s] -- Searching for <ignition-common3> component [graphics]
+[1.154s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[1.155s] -- Searching for dependencies of ignition-common3-graphics
+[1.155s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.156s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.157s] -- Searching for dependencies of ignition-fuel_tools4
+[1.197s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.202s] -- Checking for module 'jsoncpp'
+[1.210s] --   Found jsoncpp, version 1.7.4
+[1.231s] -- Found JSONCPP: TRUE  
+[1.234s] -- Checking for module 'libzip'
+[1.242s] --   Found libzip, version 1.5.1
+[1.263s] -- Found ZIP: TRUE  
+[1.263s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.263s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.263s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.264s] -- Gazebo version: 11.11
+[1.265s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[1.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.293s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.338s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.354s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.431s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.431s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.432s] -- Found Threads: TRUE  
+[1.524s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[1.659s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.699s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.751s] -- Configuring done
+[1.762s] -- Generating done
+[1.763s] -- Build files have been written to: /home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins
+[1.771s] Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake /home/perla/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins
+[1.771s] Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins -- -j20 -l20
+[1.794s] [35m[1mScanning dependencies of target gazebo_ros_velodyne_laser[0m
+[1.847s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o[0m
+[7.695s] [100%] [32m[1mLinking CXX shared library libgazebo_ros_velodyne_laser.so[0m
+[8.001s] [100%] Built target gazebo_ros_velodyne_laser
+[8.014s] Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins -- -j20 -l20
+[8.027s] Invoking command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins
+[8.032s] -- Install configuration: ""
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.sh
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.dsv
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/velodyne_gazebo_plugins
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/velodyne_gazebo_plugins
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.sh
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.dsv
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.sh
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.dsv
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.bash
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.sh
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.zsh
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.dsv
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/ament_index/resource_index/packages/velodyne_gazebo_plugins
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.032s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake
+[8.033s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake
+[8.033s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.xml
+[8.033s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/include
+[8.033s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins
+[8.033s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.h
+[8.033s] -- Installing: /home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so
+[8.034s] -- Set runtime path of "/home/perla/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so" to ""
+[8.035s] Invoked command in '/home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perla/ros2_ws/install/my_robot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/perla/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins

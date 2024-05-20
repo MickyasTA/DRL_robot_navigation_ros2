@@ -1,0 +1,215 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/perla/DRL_robot_navigation_ros2/build/td3
+-- Install configuration: ""
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//launch
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//launch/multi_robot_scenario.launch.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//launch/robot_state_publisher.launch.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//launch/pioneer3dx.rviz
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//launch/training_simulation.launch.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//launch/test_simulation.launch.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/model.config
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/center_wheel.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/left_wheel.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/top.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/back_rim.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/front_sonar.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/back_sonar.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/left_hubcap.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/center_hubcap.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/right_wheel.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/right_hubcap.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/front_rim.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/chassis.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/swivel.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/Coordinates
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/laser
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/laser/hokuyo.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/td_robot.sdf
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/VLP-16.urdf.xacro
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/example.urdf.xacro
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/HDL-32E.urdf.xacro
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/VLP-32C.urdf.xacro
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world/lio_sam.model
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world/example.world
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/model.config
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_head
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_base
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera/camera.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_right_link.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_right_link.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_left_link.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_left_link.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/wheel
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/wheel/wheel_link.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base/base_link.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base/base_linkOLD.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_head
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_base
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gps
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gps/gps.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30/gim30.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/camera
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/sus_link.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/wheel
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/wheel/robot_wheel.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base/base_link.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base/base_link_old.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/rs_robot.sdf
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_scan.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_scan.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_1.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_2.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_scan.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_2.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_1.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_base.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_scan.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_base.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/launch
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/launch/example-launch.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/package.xml
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/rviz
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/rviz/example.rviz
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/CMakeLists.txt
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/CHANGELOG.rst
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/__pycache__
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/__pycache__/replay_buffer.cpython-38.pyc
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/__pycache__/point_cloud2.cpython-38.pyc
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/replay_buffer.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/train_velodyne_node.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1680403580.robotmania-MINIPC-PA90.28181.0
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1701274498.perla-ROG-Zephyrus-M16-GU603ZM-GU603ZM.87931.0
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1704884527.perla-ROG-Zephyrus-M16-GU603ZM-GU603ZM.58798.0
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1680403642.robotmania-MINIPC-PA90.28717.0
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1702485294.perla-ROG-Zephyrus-M16-GU603ZM-GU603ZM.183175.0
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1704884519.perla-ROG-Zephyrus-M16-GU603ZM-GU603ZM.58716.0
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1704810275.perla-ROG-Zephyrus-M16-GU603ZM-GU603ZM.98734.0
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1704878404.perla-ROG-Zephyrus-M16-GU603ZM-GU603ZM.16682.0
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1704878022.perla-ROG-Zephyrus-M16-GU603ZM-GU603ZM.14181.0
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1704810354.perla-ROG-Zephyrus-M16-GU603ZM-GU603ZM.100985.0
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1704883319.perla-ROG-Zephyrus-M16-GU603ZM-GU603ZM.56742.0
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models/td3_velodyne_critic.pth
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models/td3_velodyne_actor.pth
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/test_velodyne_node.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/point_cloud2.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results/TD3_velodyne.npy
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results/td3_velodyne.npy
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/center_wheel.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/left_wheel.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/top.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/back_rim.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/front_sonar.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/back_sonar.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/left_hubcap.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/center_hubcap.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/right_wheel.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/right_hubcap.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/front_rim.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/chassis.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/swivel.stl
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/Coordinates
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/laser
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/laser/hokuyo.dae
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/td_robot.urdf
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//worlds
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3//worlds/td3.world
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/lib/td3/replay_buffer.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/lib/td3/test_velodyne_node.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/lib/td3/train_velodyne_node.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/lib/td3/point_cloud2.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/lib/td3/multi_robot_scenario.launch.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/lib/td3/robot_state_publisher.launch.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/lib/td3/training_simulation.launch.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/lib/td3/test_simulation.launch.py
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/lib/td3/pioneer3dx.rviz
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/package_run_dependencies/td3
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/parent_prefix_path/td3
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/environment/ament_prefix_path.sh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/environment/ament_prefix_path.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/environment/path.sh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/environment/path.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.bash
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.sh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.zsh
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.dsv
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/packages/td3
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/cmake/td3Config.cmake
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/cmake/td3Config-version.cmake
+-- Installing: /home/perla/DRL_robot_navigation_ros2/install/td3/share/td3/package.xml
