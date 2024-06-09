@@ -1,5 +1,7 @@
 #Collision Avoidance of Mobile Robots in ROS2
 This is the result of the trained agent. Watch this on YouTube. :--- https://www.youtube.com/watch?v=IRASuKMiOvw&t=5s
+#This is the paper related to the project 
+https://www.researchgate.net/publication/380875371_Controlling_a_Mobile_Robot_Using_ROS2_and_Machine_Learning
 
 ##To run this:
 
