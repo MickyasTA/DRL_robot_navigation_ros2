@@ -19,10 +19,10 @@ A **Twin-Delayed DDPG (TD3)** agent drives a Pioneer 3-DX robot through an unkno
 <br/>
 
 <a href="https://www.youtube.com/watch?v=IRASuKMiOvw">
-  <img src="https://img.youtube.com/vi/IRASuKMiOvw/maxresdefault.jpg" alt="Watch the trained agent navigate and map the room on YouTube" width="70%">
+  <img src="docs/images/demo.png" alt="Live SLAM occupancy grid in RViz (left) while the TD3 agent drives the robot through the Gazebo world (right)" width="90%">
 </a>
 
-<sub><i>Click to watch the trained agent explore and map the room on YouTube.</i></sub>
+<sub><i><b>Left:</b> the occupancy-grid map built live in RViz as the agent explores &nbsp;·&nbsp; <b>Right:</b> the Gazebo simulation with the robot, obstacles, and laser scan. Click to watch the full demo on YouTube.</i></sub>
 
 </div>
 
