@@ -1,0 +1,13 @@
+# Python dependencies for the TD3 reinforcement-learning nodes.
+#
+# ROS 2 packages (rclpy and the message packages: geometry_msgs, nav_msgs,
+# sensor_msgs, std_srvs, visualization_msgs, gazebo_msgs) come from your ROS 2
+# Foxy installation and are NOT installed via pip.
+#
+# Install with:  pip install -r requirements.txt
+
+torch>=1.10        # actor/critic networks and TD3 training
+numpy              # state/observation math
+tensorboard        # training curves (loss, Q-values)
+matplotlib         # plotting utilities
+squaternion        # quaternion <-> euler conversion for odometry

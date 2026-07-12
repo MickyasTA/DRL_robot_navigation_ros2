@@ -1,0 +1,38 @@
+MIT License
+
+Copyright (c) 2024 Mickyas Tamiru Asfaw and the DRL_robot_navigation_ros2 authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+This repository incorporates third-party components distributed under their own
+licenses, including:
+
+  * src/velodyne_simulator/ — Velodyne LiDAR Gazebo simulation,
+    Copyright (c) 2015-2018 Dataspeed Inc., released under the BSD License.
+    See src/velodyne_simulator/LICENSE.
+
+  * src/omni_cartographer/ — Cartographer launch/config adapted from the
+    TurtleBot3 project (https://github.com/ROBOTIS-GIT/turtlebot3),
+    Copyright (c) ROBOTIS, released under the Apache License 2.0. Included for
+    reference only; this project uses slam_toolbox for mapping.
+
+The TD3 agent and robot navigation approach are derived from the ROS 1 project
+reiniscimurs/DRL-robot-navigation (MIT License).

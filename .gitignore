@@ -1,0 +1,29 @@
+# ROS 2 / colcon build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+.venv/
+venv/
+env/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Notes
+# TensorBoard event files live in src/td3/scripts/runs/ and a sample set is
+# committed for reference. Delete or ignore new runs locally if they add noise.

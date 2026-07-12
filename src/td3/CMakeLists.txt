@@ -48,11 +48,13 @@ install(
     scripts/replay_buffer.py
     scripts/test_velodyne_node.py
     scripts/train_velodyne_node.py
+    scripts/map_velodyne_node.py
     scripts/point_cloud2.py
     launch/multi_robot_scenario.launch.py
     launch/robot_state_publisher.launch.py
     launch/training_simulation.launch.py
-    launch/test_simulation.launch.py    
+    launch/test_simulation.launch.py
+    launch/testmap_simulation.launch.py
     launch/pioneer3dx.rviz
   DESTINATION lib/${PROJECT_NAME}
 )
