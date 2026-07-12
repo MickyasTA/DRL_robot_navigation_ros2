@@ -19,10 +19,10 @@ A **Twin-Delayed DDPG (TD3)** agent drives a Pioneer 3-DX robot through an unkno
 <br/>
 
 <a href="https://www.youtube.com/watch?v=IRASuKMiOvw">
-  <img src="https://img.youtube.com/vi/IRASuKMiOvw/maxresdefault.jpg" alt="Watch the trained agent navigate and map the room on YouTube" width="70%">
+  <img src="docs/images/demo.png" alt="Live SLAM occupancy grid in RViz (left) while the TD3 agent drives the robot through the Gazebo world (right)" width="90%">
 </a>
 
-<sub><i>Click to watch the trained agent explore and map the room on YouTube.</i></sub>
+<sub><i><b>Left:</b> the occupancy-grid map built live in RViz as the agent explores &nbsp;·&nbsp; <b>Right:</b> the Gazebo simulation with the robot, obstacles, and laser scan. Click to watch the full demo on YouTube.</i></sub>
 
 </div>
 
@@ -76,17 +76,15 @@ The work was carried out as an **Integrator Project** at **GIPSA-Lab, Grenoble I
 
 **▶ Video:** [Collision avoidance & mapping of the trained agent](https://www.youtube.com/watch?v=IRASuKMiOvw)
 
-Occupancy grids built by the agent with `slam_toolbox` during autonomous exploration (black = walls/obstacles, white = free space, grey = unexplored):
+An occupancy grid built by the robot with `slam_toolbox` during autonomous exploration (black = walls/obstacles, white = free space, grey = unmapped):
 
 <div align="center">
 
-| Early exploration | Room taking shape | Full room mapped |
-|:---:|:---:|:---:|
-| <img src="docs/images/map_first.png" width="240" alt="SLAM map, early exploration"> | <img src="docs/images/map_second.png" width="240" alt="SLAM map, partially explored"> | <img src="docs/images/map_third.png" width="240" alt="SLAM map, fully explored"> |
+<img src="docs/images/map_third.png" width="320" alt="Occupancy grid of the room built with slam_toolbox during exploration">
 
 </div>
 
-The raw `.pgm` / `.yaml` map outputs live in [`maps/`](maps/).
+The walls, the cross- and triangle-shaped obstacles, and the scattered boxes are all captured. The raw `.pgm` / `.yaml` outputs (plus a few more saved runs) live in [`maps/`](maps/).
 
 ## How it works
 
