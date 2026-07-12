@@ -1,0 +1,12 @@
+# Normalize line endings: store text with LF in the repo, check out native.
+* text=auto eol=lf
+
+# Treat binary assets as binary (never normalize or diff as text).
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.pgm  binary
+*.stl  binary
+*.dae  binary
+*.pth  binary
+*.npy  binary
